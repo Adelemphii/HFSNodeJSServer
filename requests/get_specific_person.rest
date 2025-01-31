@@ -1,0 +1,4 @@
+GET http://localhost:3001/api/persons/1
+
+### Get non-existing
+GET http://localhost:3001/api/persons/10001

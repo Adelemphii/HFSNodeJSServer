@@ -1,0 +1,27 @@
+### Create valid
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Adele",
+    "number": "111-111-1111"
+}
+
+### Create without name
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "number": "111-111-1111"
+}
+
+### Create without number
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Adele"
+}
+
+### Create empty
+POST http://localhost:3001/api/persons
